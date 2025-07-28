@@ -6,13 +6,12 @@ from src.langchain_pinecone import init_pinecone, add_documents_to_pinecone, que
 from src.google_auth import get_google_credentials
 import tempfile
 import shutil
-from langchain.llms import OpenAI
+from langchain_community.llms import OpenAI
 from langchain.prompts import PromptTemplate
 import os
 from tempfile import NamedTemporaryFile
 from src.utils import parse_pdf
-from langchain.llms import OpenAI
-from langchain.prompts import PromptTemplate
+
 
 app = FastAPI()
 

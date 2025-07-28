@@ -1,6 +1,6 @@
 import pinecone
-from langchain.embeddings import OpenAIEmbeddings
-from langchain.vectorstores import Pinecone as LangChainPinecone
+from langchain_community.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores import Pinecone as LangChainPinecone
 
 # Pinecone and LangChain setup
 
